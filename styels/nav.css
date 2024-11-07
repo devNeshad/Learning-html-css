@@ -1,0 +1,44 @@
+nav > ul {
+  display: flex;
+  gap: 20px;
+}
+nav li {
+  list-style: none;
+  padding: 10px;
+}
+nav li :hover {
+  background-color: tomato;
+}
+
+nav li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* nav li : hover{
+background-color:read-only;
+ } */
+
+/*  nested menu styles */
+nav li .dropdawn {
+  display: none;
+  position: absolute;
+  padding: 0px;
+  background-color: aqua;
+}
+
+nav li:hover .dropdawn {
+  display: block;
+}
+
+.dropdawn li {
+  padding: 10px 10px;
+  border-radius: 0px 20px;
+}
+
+.dropdawn li:hover {
+  background-color: #1f70f2;
+}
+.dropdawn li a:hover {
+  background-color: #1f70f2;
+  color: white;
+}

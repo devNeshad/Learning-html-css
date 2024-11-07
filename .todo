@@ -1,0 +1,3 @@
+
+git config --global --unset user.devNeshad
+git config --global --unset user.mdneashads@gmail.com
