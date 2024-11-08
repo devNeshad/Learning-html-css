@@ -1,3 +1,7 @@
 
 git config --global --unset user.devNeshad
 git config --global --unset user.mdneashads@gmail.com
+
+
+git config --global user.name "devNeshad"
+git config --global user.email "mdneashads@gmail.com"
